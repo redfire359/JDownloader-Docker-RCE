@@ -39,7 +39,7 @@ Terminal 2 : `nc -nvlp <PORT>`
 
 4.1 Go back to the web interface, on the "LinkGrabber" tab and right click. Select 'Add new Links'. 
 
-4.2 Enter your ip like so 'http://<IP>:8081'
+4.2 Enter your ip like so 'http://YOUR-IP:8081'
 
 4.3 Ensure the directory next to the save icon is the same installation directory from step 1.2
 
