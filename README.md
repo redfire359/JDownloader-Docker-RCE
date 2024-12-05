@@ -11,7 +11,7 @@ You can upload a .jar file to JDownloader and change its name to `JDownloader.ja
 
 1.1 When you get to the JDownloader interface, go to the top left and select 'Help -> About JDownloader'
 
-1.2 Check the Java version and Installation Directory (in this screenshot its JRE 1.8 and `/config`, the config file is covered by the "Click me / Mouse Over")
+1.2 Check the Java version and Installation Directory (in this screenshot its JRE 1.8 and `/config`, which is covered by the "Click me / Mouse Over")
 
 ![](screenshots/step1.png)
 
