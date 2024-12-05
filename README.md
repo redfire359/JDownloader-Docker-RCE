@@ -63,7 +63,7 @@ Terminal 2 : `nc -nvlp <PORT>`
 
 6.1 In the top left, goto `File -> Restart`. This should restart the service, which re-runs the `JDownloader.jar` (which is now our malicious file) 
 
-6.2 To re-execute, just reconnect. (This hasn't been tested thuroughly so dont rely on it. Establish persistence!!) 
+6.2 To re-execute, just reconnect. (This has been hit-or-miss so don't rely on it. Establish persistence!!) 
 
 ![](screenshots/step6.png)
 
