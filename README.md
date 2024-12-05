@@ -59,7 +59,7 @@ Terminal 2 : `nc -nvlp <PORT>`
 
 # Step 6: Execute. 
 
-** WARNING: Once you run this step you will lose GUI access. This is because we have replaced the .jar file that controls the GUI with our malicious code. ** 
+**WARNING: Once you run this step you will lose GUI access. This is because we have replaced the .jar file that controls the GUI with our malicious code.** 
 
 6.1 In the top left, goto `File -> Restart`. This should restart the service, which re-runs the `JDownloader.jar` (which is now our malicious file) 
 
