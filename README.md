@@ -6,6 +6,7 @@ Tested on Docker container running Linux Alpine 64 bit, bit it should run on win
 ## Timeline 
 
 12 04 2024 - Vendor Notified 
+
 12 05 2024 - Vendor said they did not maintain docker container 
 
 The docker maintainer page doesnt seem to fix bugs so I am posting this to make people aware of the vulnerabilties that can come with exposing a container to the internet. 
