@@ -3,6 +3,10 @@ Documenting how to exploit JDownloader instances
 
 Tested on Docker container running Linux Alpine 64 bit, bit it should run on windows/linux either way.
 
+## Timeline 
+
+12 04 2024 - Vendor Notified 
+
 # TL;DR
 
 You can upload a .jar file to JDownloader and change its name to `JDownloader.jar` then restart the service, triggering whatever was in the .jar 
